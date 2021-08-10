@@ -61,7 +61,6 @@ a{
     width: 13px;
     position: relative;
     top: 3px;
-    left: 1em;
 }
 
 #more{
@@ -95,5 +94,9 @@ a{
 
     .elements-container {
         padding: 0 25%;
+    }
+    
+    .arrow{
+        left: 1em;
     }
 }
