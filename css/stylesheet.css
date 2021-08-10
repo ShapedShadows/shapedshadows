@@ -106,9 +106,21 @@ a{
     }
 }
 
-
 @media screen and (min-width: 1200px) {
     .arrow{
         left: 3em;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .arrow{
+        left: 4em;
+    }
+}
+
+
+@media screen and (min-width: 1430px) {
+    .arrow{
+        left: 5em;
     }
 }
