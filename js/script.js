@@ -9,3 +9,7 @@ function moreinfo() {
         n = 0
     }
 }
+
+function love(){
+    document.getElementById("love").style.display = "block";
+}
