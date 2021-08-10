@@ -84,6 +84,35 @@ a{
     top: 0.4em;
 }
 
+.about:hover{
+    backdrop-filter: contrast(0.5)
+}
+
+.apple:hover{
+    background: #fa405855;
+    border: 1px solid #fa405800;
+}
+
+.spotify:hover{
+    background: #1ed76055;
+    border: 1px solid #1ed76000;
+}
+
+.youtube:hover{
+    background: #dc272455;
+    border: 1px solid #dc272400;
+}
+
+.instagram:hover{
+    background: #ae4b9e55;
+    border: 1px solid #ae4b9e00;
+}
+
+.vk:hover{
+    background: #2288f555;
+    border: 1px solid #2288f500;
+}
+
 @media screen and (min-width: 600px) {
     body{
         background-position: center 75%;
