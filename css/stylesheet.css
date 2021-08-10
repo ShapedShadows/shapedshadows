@@ -57,6 +57,11 @@ button .text{
     top: 3px;
 }
 
+#more{
+    display: none;
+    margin-top: 0;
+}
+
 @media screen and (min-width: 600px) {
     body{
         background-position: center 75%;
