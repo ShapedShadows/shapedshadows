@@ -113,6 +113,9 @@ a{
     border: 1px solid #2288f500;
 }
 
+.content:hover{
+    color: white;
+}
 @media screen and (min-width: 600px) {
     body{
         background-position: center 75%;
