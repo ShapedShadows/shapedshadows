@@ -100,3 +100,9 @@ a{
         left: 1em;
     }
 }
+
+@media screen and (min-width: 1030px) {
+    .arrow{
+        left: 2em;
+    }
+}
