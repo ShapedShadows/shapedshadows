@@ -154,3 +154,22 @@ a{
         left: 5em;
     }
 }
+
+#love{
+    display: none;
+}
+
+#love text{
+    width: fit-content;
+}
+
+#love p{
+    width: fit-content;
+    padding-left: 5px;
+}
+
+.max_gabi{
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
