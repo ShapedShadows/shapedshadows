@@ -105,3 +105,10 @@ a{
         left: 2em;
     }
 }
+
+
+@media screen and (min-width: 1200px) {
+    .arrow{
+        left: 3em;
+    }
+}
