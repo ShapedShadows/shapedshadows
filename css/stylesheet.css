@@ -1,3 +1,8 @@
+@font-face{
+    font-family: Audio_Regular;
+    src: url('Audiowide-Regular.ttf');
+} 
+
 body {
     background-image: url(../images/back.jpg);
     background-repeat: no-repeat;
@@ -10,12 +15,14 @@ h1{
     text-align: center;
     font-size: 170%;
     margin-top: 1em;
+    font-family: Audio_Regular;
 }
 
 p{
     text-align: center;
     padding: 1em 0;
     margin: 0;
+    font-family: Audio_Regular;
 }
 
 a{
@@ -137,6 +144,10 @@ a{
 @media screen and (min-width: 600px) {
     body{
         background-position: center 75%;
+    }
+    
+    h1{
+      font-size: 145%;
     }
 
     .elements-container {
