@@ -104,7 +104,7 @@ a{
 }
 
 .instagram:hover{
-    background: #ae4b9e55;
+    background-image: url(../images/gradient.jpg);
     border: 1px solid #ae4b9e00;
 }
 
