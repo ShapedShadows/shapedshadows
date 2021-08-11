@@ -43,8 +43,11 @@ var x = setInterval(function() {
 }, 1000);
 
 function copy() {
-    var copyText = "sadshapedshadows@gmail.com";
+    vvar $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($("sadshapedshadows@gmail.com").text()).select();
     document.execCommand("copy");
+    $temp.remove();
     document.getElementById("window").style.display = "block";
     setInterval(function(){
         document.getElementById("window").style.display = "none";
