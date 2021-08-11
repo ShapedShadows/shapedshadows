@@ -169,8 +169,7 @@ a{
     position: relative;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 1em 1em;
-    width: 98%;
+    margin: 1em;
 }
 
 .max_gabi, .lyubimie{
