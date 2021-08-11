@@ -159,16 +159,21 @@ a{
     display: none;
 }
 
-#love text{
-    width: fit-content;
-}
-
 #love p{
-    width: fit-content;
-    padding-left: 5px;
+    font-size: xx-large;
 }
 
-.max_gabi{
+.flex{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1em 1em;
+    width: 98%;
+}
+
+.max_gabi, .lyubimie{
     height: 200px;
     margin-top: 10px;
     margin-left: 10px;
