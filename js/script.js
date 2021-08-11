@@ -43,11 +43,9 @@ var x = setInterval(function() {
 }, 1000);
 
 function copy() {
-    vvar $temp = $("<input>");
-    $("body").append($temp);
-    $temp.val($("sadshapedshadows@gmail.com").text()).select();
+    var copyText = "sadshapedshadows@gmail.com";
+    copyText.setSelectionRange(0, 99999);
     document.execCommand("copy");
-    $temp.remove();
     document.getElementById("window").style.display = "block";
     setInterval(function(){
         document.getElementById("window").style.display = "none";
