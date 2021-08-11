@@ -25,6 +25,19 @@ a{
     position: relative;
 }
 
+.cover{
+    margin-top: 16px;;
+}
+
+.cover p{
+    padding: 0.2em 1em;
+}
+
+.cover img{
+    height: 100%;
+    display: none;
+}
+
 .logo{
     width: 30px;
     position: relative;
@@ -66,7 +79,7 @@ a{
     margin-top: 0;
 }
 
-.email{
+.email, .cover{
     width: fit-content;
     position: relative;
     transform: translateX(-50%);
