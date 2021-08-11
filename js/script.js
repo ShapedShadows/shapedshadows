@@ -13,3 +13,7 @@ function moreinfo() {
 function love(){
     document.getElementById("love").style.display = "block";
 }
+
+function unlove() {
+    document.getElementById("love").style.display = "none";
+}
