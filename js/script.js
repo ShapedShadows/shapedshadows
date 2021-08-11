@@ -29,9 +29,15 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   document.getElementById("timer").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
-    
+  
+  if (distance > 0 && days == 0 && hours == 0){
+    var bl = 3 + (minutes / 10);
+    document.getElementById("cov").style.webkitFilter = "blur(" + bl + "px)";
+  }  
+  
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("timer").innerHTML = "NEW ALBUM IS PUBLISHED";
+    document.getElementById("cov").style.webkitFilter = "blur(0px)";
   }
 }, 1000);
