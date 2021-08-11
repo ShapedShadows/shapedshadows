@@ -43,8 +43,8 @@ var x = setInterval(function() {
 }, 1000);
 
 function copy() {
-    var copyText = "sadshapedshadows@gmail.com";
-    copyText.setSelectionRange(0, 99999);
+    var copyText = document.getElementById("emailInput");
+    copyText.select();
     document.execCommand("copy");
     document.getElementById("window").style.display = "block";
     setInterval(function(){
