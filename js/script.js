@@ -45,5 +45,10 @@ var x = setInterval(function() {
 function copy() {
     var copyText = "sadshapedshadows@gmail.com";
     document.execCommand("copy");
-    alert("email copied");
+    document.getElementById("window").style.display = "block";
+    setTimeout(close, 1500);
+}
+
+function close(){
+    document.getElementById("window").style.display = "none";
 }
