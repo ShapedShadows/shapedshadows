@@ -46,9 +46,7 @@ function copy() {
     var copyText = "sadshapedshadows@gmail.com";
     document.execCommand("copy");
     document.getElementById("window").style.display = "block";
-    setTimeout(close, 1500);
-}
-
-function close(){
-    document.getElementById("window").style.display = "none";
+    setInterval(function(){
+        document.getElementById("window").style.display = "none";
+    }, 3000);
 }
