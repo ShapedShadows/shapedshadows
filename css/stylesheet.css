@@ -213,8 +213,22 @@ a{
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 1);
+    animation: emergence 3s;
 }
-
+@keyframes emergence{
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
 #window p{
     color: white;
 }
