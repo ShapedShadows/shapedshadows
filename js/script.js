@@ -41,3 +41,9 @@ var x = setInterval(function() {
     document.getElementById("cov").style.webkitFilter = "blur(0px)";
   }
 }, 1000);
+
+function copy() {
+    var copyText = "sadshapedshadows@gmail.com";
+    document.execCommand("copy");
+    alert("email copied");
+}
