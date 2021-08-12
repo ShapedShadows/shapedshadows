@@ -47,7 +47,7 @@ function copy() {
     copyText.select();
     document.execCommand("copy");
     document.getElementById("window").style.display = "block";
-    setInterval(function(){
+    setTimeout(function(){
         document.getElementById("window").style.display = "none";
     }, 3000);
 }
