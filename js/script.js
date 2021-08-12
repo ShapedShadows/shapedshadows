@@ -43,9 +43,11 @@ var x = setInterval(function() {
 }, 1000);
 
 function copy() {
+    document.getElementById("emailInput").style.display = "block";
     var copyText = document.getElementById("emailInput");
     copyText.select();
     document.execCommand("copy");
+    document.getElementById("emailInput").style.display = "none";
     document.getElementById("window").style.display = "block";
     setTimeout(function(){
         document.getElementById("window").style.display = "none";
