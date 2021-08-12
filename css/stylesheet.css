@@ -141,6 +141,12 @@ a{
 .content:hover{
     color: white;
 }
+
+#love:hover {
+    background: #ff91a455;
+    border: 1px solid #ff91a400;
+}
+
 @media screen and (min-width: 600px) {
     body{
         background-position: center 75%;
