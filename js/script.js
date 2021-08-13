@@ -37,7 +37,8 @@ var x = setInterval(function() {
   
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "DEBUT EP IS PUBLISHED";
+    document.getElementById("timeLeft").innerHTML = "listen to our debut EP";
+    document.getElementById("timer").innerHTML = "«YOU ARE AWARE OF EVERYTHING THAT IS GOING ON»";
     document.getElementById("cov").style.webkitFilter = "blur(0px)";
   }
 }, 1000);
