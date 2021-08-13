@@ -37,7 +37,7 @@ var x = setInterval(function() {
   
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "NEW ALBUM IS PUBLISHED";
+    document.getElementById("timer").innerHTML = "DEBUT EP IS PUBLISHED";
     document.getElementById("cov").style.webkitFilter = "blur(0px)";
   }
 }, 1000);
